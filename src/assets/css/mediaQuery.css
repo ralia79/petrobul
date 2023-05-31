@@ -1,11 +1,14 @@
 @media only screen and (max-width: 960px) {
     .padding-custom-top {
-        padding-top: 0;
+        padding-top:0;
     }
     .mobile-custom-top-padding {
         padding-top: 150px;
     }
     .w-md-100 {
         width: 100%;
+    }
+    .banner-height {
+        height: auto !important;
     }
 }

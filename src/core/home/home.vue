@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-5 d-flex align-end justify-center justify-md-end mt-7 mt-md-0 pa-0 ma-0">
-                        <img src="@/assets/img/assets01.png" alt="assets" class="w-75">
+                        <img src="@/assets/img/assets01.png" alt="assets" class="w-75 w-md-100">
                     </div>
                 </v-container>
 
