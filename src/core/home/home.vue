@@ -1,8 +1,7 @@
-<script src="./home.component.ts"></script>
-
 <template>
     <v-app>
-        <appNavBar />
+        <appNavBar/>
     </v-app>
 
 </template>
+<script src="./home.component.ts"></script>
