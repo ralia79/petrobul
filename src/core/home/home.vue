@@ -33,6 +33,7 @@
                 </v-container>
             </div>
         </div>
+        <our-service />
     </v-sheet>
 </template>
 <script src="./home.component.ts"></script>
