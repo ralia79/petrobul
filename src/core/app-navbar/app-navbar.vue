@@ -15,11 +15,11 @@
                 </div>
                 <div class="d-flex align-center justify-space-between col-6">
                     <div class="d-flex align-center ">
-                        <v-icon color="red" class="pa-4">mdi-mail-ru</v-icon>
+                        <v-icon class="pa-1 rounded-pill red" color="white">mdi-home</v-icon>
                         <p class="mb-0 ms-2 white--text">info@petrobul-heizoel.de</p>
                     </div>
                     <div class="d-flex align-center ">
-                        <v-icon color="red" class="pa-4">mdi-mail-ru</v-icon>
+                        <v-icon class="pa-1 rounded-pill red" color="white">mdi-home</v-icon>
                         <p class="mb-0 ms-2 white--text">022335067787</p>
                     </div>
                     <div class="d-flex align-center ">
