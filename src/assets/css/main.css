@@ -1,16 +1,23 @@
 @import url('./fonts.css');
 @import url('./colors.css');
+@import url('./sizes.css');
+@import url('./mediaQuery.css');
 
 body {
     padding: 0;
     margin: 0;
 }
 
+* {
+    text-transform: none !important;
+}
+
 li {
     text-decoration: none;
     list-style: none;
     cursor: pointer;
-    font-family: "Roboto" , serif;
+    font-family: "Roboto", serif;
+    font-size: 18px;
 }
 
 .little_circle {
@@ -20,5 +27,37 @@ li {
 }
 
 p {
-    font-family: "Roboto" , serif;
+    font-family: "Open-Sans", serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Manrope', serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Manrope', serif;
+}
+
+.background-truck {
+    background-image: url("@/assets/img/fuel-truck-5291980_1920 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-height {
+    height: 100vh;
+}
+
+.blue-bg-opacity {
+    background-color: #0A2640D1;
+}
+
+.fit_image {
+    width: 170px;
+    height: 115px;
 }

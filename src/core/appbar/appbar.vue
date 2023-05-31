@@ -14,12 +14,16 @@
                     </ul>
                 </div>
                 <div class="d-flex align-center justify-end col-6 pa-0 mt-7">
-                    <div class="d-flex align-center me-5">
-                        <p class="rounded-pill custom_red_bg white--text ma-0 little_circle d-flex align-center justify-center">@</p>
+                    <div class="d-flex align-center me-7">
+                        <div class="rounded-pill custom_red_bg white--text ma-0 little_circle d-flex align-center justify-center">
+                            <img src="@/assets/img/AtSign.svg" alt="@ image" class="w-75">
+                        </div>
                         <p class="mb-0 ms-2 white--text">info@petrobul-heizoel.de</p>
                     </div>
-                    <div class="d-flex align-center me-5">
-                        <v-icon class="pa-1 rounded-pill custom_red_bg" color="white">mdi-home</v-icon>
+                    <div class="d-flex align-center me-7">
+                        <div class="rounded-pill custom_red_bg white--text ma-0 little_circle d-flex align-center justify-center">
+                            <img src="@/assets/img/phone.svg" alt="@ image" class="w-75">
+                        </div>
                         <p class="mb-0 ms-2 white--text">022335067787</p>
                     </div>
                     <div class="d-flex align-center">
@@ -35,4 +39,4 @@
     </div>
 </template>
 
-<script src="./app-navbar.component.ts"></script>
+<script src="./appbar.component.ts"></script>

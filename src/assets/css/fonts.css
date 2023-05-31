@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'Open-Sans';
     src: url('@/assets/fonts/OpenSans-Regular.eot');
     src: url('@/assets/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
     url('@/assets/fonts/OpenSans-Regular.woff2') format('woff2'),
