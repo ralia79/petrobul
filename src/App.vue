@@ -1,7 +1,7 @@
 <template>
     <v-app>
-        <app-bar/>
-        <router-view/>
+        <app-bar class="z-index-up"/>
+        <router-view class="z-index-down"/>
     </v-app>
 </template>
 <script>

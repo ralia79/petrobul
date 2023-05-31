@@ -1,6 +1,6 @@
 <template>
     <v-card
-            class="mx-auto w-100 z-index-up"
+            class="mx-auto w-100"
     >
         <v-list color="#0A2640F9">
             <v-list-item v-for="(item , key) in items" :key="key" v-if="item.data.length === 0">
@@ -9,7 +9,7 @@
                 </RouterLink>
             </v-list-item>
 
-            <v-list-group  v-for="(item , key) in items" :key="key" v-if="item.data.length > 0">
+            <v-list-group v-for="(item , key) in items" :key="key" v-if="item.data.length > 0">
                 <template v-slot:activator>
                     <v-list-item-title>{{ item.title }}</v-list-item-title>
                 </template>

@@ -15,7 +15,7 @@
                             Wunschtermin
                             für Ihre individuelle und optimale Energieversorgung.
                         </p>
-                        <div class="w-100 d-flex flex-column flex-md-row align-center mt-8 z-index-down">
+                        <div class="w-100 d-flex flex-column flex-md-row align-center mt-8">
                             <v-btn color="#CA0000" class="d-flex align-center ps-10 pe-10 pt-7 pb-7 me-md-5 w-md-100"
                                    dark
                                    rounded>
