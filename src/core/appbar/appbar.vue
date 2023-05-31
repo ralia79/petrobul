@@ -33,9 +33,19 @@
                 </div>
             </v-container>
         </v-app-bar>
-        <v-app-bar app class="hidden-md-and-up" height="230px">
-
+        <v-app-bar app class="hidden-md-and-up" height="150px" color="#0A2640F9">
+            <div class="d-flex flex-column w-100 ma-4">
+                <div class="d-flex align-center justify-space-between fill-height">
+                    <a @click="Router().push('/').catch(()=>{})">
+                        <img src="@/assets/img/Logo.png" alt="logo" class="fit_image"/>
+                    </a>
+                    <v-icon class="white--text" @click="open()">{{ Icon }}</v-icon>
+                </div>
+            </div>
         </v-app-bar>
+        <div class="w-100" style="margin-top: 150px; position: fixed" v-if="extended">
+            <listGroup :items="items"/>
+        </div>
     </div>
 </template>
 

@@ -11,7 +11,10 @@ body {
 * {
     text-transform: none !important;
 }
-
+a {
+    text-decoration: none;
+    font-family: "Roboto", serif;
+}
 li {
     text-decoration: none;
     list-style: none;
@@ -53,11 +56,14 @@ h2 {
     height: 100vh;
 }
 
-.blue-bg-opacity {
-    background-color: #0A2640D1;
-}
-
 .fit_image {
     width: 170px;
     height: 115px;
+}
+
+.z-index-down {
+    z-index: 0 !important;
+}
+.z-index-up{
+    z-index: 10 !important;
 }

@@ -15,8 +15,9 @@
                             Wunschtermin
                             für Ihre individuelle und optimale Energieversorgung.
                         </p>
-                        <div class="w-100 d-flex flex-column flex-md-row align-center mt-8">
-                            <v-btn color="#CA0000" class="d-flex align-center ps-10 pe-10 pt-7 pb-7 me-md-5 w-md-100" dark
+                        <div class="w-100 d-flex flex-column flex-md-row align-center mt-8 z-index-down">
+                            <v-btn color="#CA0000" class="d-flex align-center ps-10 pe-10 pt-7 pb-7 me-md-5 w-md-100"
+                                   dark
                                    rounded>
                                 <v-icon class="ma-0 pa-0">mdi-credit-card</v-icon>
                                 <p class="ms-2 mb-0">Buy template</p>
@@ -26,7 +27,7 @@
                             </v-btn>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 d-flex align-end justify-end pa-0 ma-0">
+                    <div class="col-12 col-md-5 d-flex align-end justify-center justify-md-end mt-7 mt-md-0 pa-0 ma-0">
                         <img src="@/assets/img/assets01.png" alt="assets" class="w-75">
                     </div>
                 </v-container>
