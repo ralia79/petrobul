@@ -7,6 +7,8 @@
 body {
     padding: 0;
     margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 * {
@@ -145,24 +147,29 @@ h2 {
     cursor: pointer;
 }
 
-.slider-item-height:hover {
-    height: 370px;
-}
 .slider-wrapper-height {
     height: 400px;
 }
 
 .profile-title {
-    font-family: 'Open Sans' , serif;
+    font-family: 'Open Sans', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
 }
+
 .profile-caption {
-    font-family: 'Open Sans' , serif;
+    font-family: 'Open Sans', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 32px;
+}
+
+.carousel {
+    overflow-x: hidden;
+}
+.inner {
+    transition: transform 0.2s;
 }
