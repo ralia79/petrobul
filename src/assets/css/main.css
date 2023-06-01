@@ -2,6 +2,7 @@
 @import url('./colors.css');
 @import url('./sizes.css');
 @import url('./mediaQuery.css');
+@import url('./texts.css');
 
 body {
     padding: 0;
@@ -11,10 +12,12 @@ body {
 * {
     text-transform: none !important;
 }
+
 a {
     text-decoration: none;
     font-family: "Roboto", serif;
 }
+
 li {
     text-decoration: none;
     list-style: none;
@@ -64,15 +67,43 @@ h2 {
 .z-index-down {
     z-index: 0 !important;
 }
-.z-index-up{
+
+.z-index-up {
     z-index: 10 !important;
 }
 
 .position-relative {
     position: relative;
 }
+
 .album-second-image {
     position: absolute;
-    bottom: 0;
+    bottom: -20%;
     left: 10%;
+    width: 250px;
+}
+
+.album-first-image {
+    height: 550px;
+}
+
+.rounded_radius {
+    border-radius: 25px;
+}
+
+.album-item-hover {
+    padding: 20px 0 20px 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.album-item-hover:hover {
+    background-color: #0A2640;
+}
+
+.album-item-hover:hover p {
+    color: white;
 }

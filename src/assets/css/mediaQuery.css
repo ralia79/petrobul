@@ -11,6 +11,9 @@
     .banner-height {
         height: auto !important;
     }
+    .album-first-image {
+        height: auto !important;
+    }
 }
 @media only screen and (min-width: 960px) {
     .col-md-22{
