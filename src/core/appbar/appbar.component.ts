@@ -37,9 +37,25 @@ export default defineComponent({
                     ],
                 },
             ],
+            appbarColor: 'transparent'
         }
     },
+    mounted() {
+        window.onscroll = () => {
+            this.changeColor();
+        };
+    },
     methods: {
+        changeColor() {
+            if (
+                document.body.scrollTop > 100 ||
+                document.documentElement.scrollTop > 100
+            ) {
+                this.appbarColor = '#0A2640F9';
+            } else {
+                this.appbarColor = 'transparent';
+            }
+        },
         Router() {
             return Router
         },

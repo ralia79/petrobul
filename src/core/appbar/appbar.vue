@@ -1,6 +1,6 @@
 <template>
     <div class="w-100">
-        <v-app-bar app class="hidden-sm-and-down pa-0 ma-0" height="150px" color="#0A2640F9" elevation="0">
+        <v-app-bar app class="hidden-sm-and-down pa-0 ma-0" height="150px" :color="appbarColor" elevation="0">
             <v-container class="w-100 d-flex align-center justify-md-space-between h-100 pa-0 mt-0">
                 <div class="d-flex align-center col-6 fill-height pa-0">
                     <a @click="Router().push('/').catch(()=>{})" class="col-4 d-flex align-start justify-start pa-0 ma-0">
