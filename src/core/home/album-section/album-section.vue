@@ -36,9 +36,7 @@
                     </div>
                 </div>
             </div>
-
-
-            <div class="d-flex flex-column flex-md-row-reverse align-center mt-15">
+            <div class="d-flex flex-column flex-md-row-reverse align-center mt-15 mb-md-15">
                 <div class="col-12 col-md-6 align-center position-relative ">
                     <img src="@/assets/img/13545183_shift-1200x0_1yWVeB_nq4LBO 1.png" alt="image"
                          class="w-100 rounded_radius album-first-image">
@@ -70,8 +68,6 @@
                     </div>
                 </div>
             </div>
-
-
         </v-container>
     </div>
 </template>

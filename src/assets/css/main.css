@@ -107,3 +107,62 @@ h2 {
 .album-item-hover:hover p {
     color: white;
 }
+
+.abs-btn-left {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fff;
+    left: -20px;
+    position: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.abs-btn-right {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fff;
+    right: -20px;
+    position: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.radius-10 {
+    border-radius: 10px;
+}
+
+
+.slider-item-height {
+    height: 310px;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.slider-item-height:hover {
+    height: 370px;
+}
+.slider-wrapper-height {
+    height: 400px;
+}
+
+.profile-title {
+    font-family: 'Open Sans' , serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+}
+.profile-caption {
+    font-family: 'Open Sans' , serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+}
