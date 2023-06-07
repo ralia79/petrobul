@@ -158,6 +158,10 @@ h2 {
     opacity: 1 !important;
 }
 
+.VueCarousel-dot {
+    outline: none !important;
+}
+
 .radius-10 {
     border-radius: 10px;
 }

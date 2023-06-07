@@ -14,6 +14,10 @@
                               :navigationClickTargetSize="1"
                               :navigationNextLabel="''"
                               :navigationPrevLabel="''"
+                              :paginationColor="'#D9D9D9'"
+                              :paginationActiveColor="'#CA0000'"
+                              :paginationPadding="10"
+                              :paginationSize="20"
                     >
                         <Slide v-for="(item , kde) in sliderData" :key="kde" class="ma-0">
                             <v-col class="">
