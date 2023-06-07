@@ -53,7 +53,7 @@
                 </v-col>
             </v-container>
         </v-app-bar>
-        <div class="w-100" style="margin-top: 120px; position: fixed" v-if="extended">
+        <div class="w-100" style="margin-top: 110px; position: fixed" v-if="extended">
             <listGroup :items="items"/>
         </div>
     </div>
