@@ -7,7 +7,8 @@
                 <p>WER SIND WIR?</p>
                 <h2 class="text-h6 text-md-h4">Sie möchten mehr über uns Erfahren?</h2>
                 <h2 class="text-h6 text-md-h5 mt-10">Petrobul Heizöl Keyfacts</h2>
-                <p class="mt-5">Petrobul ist ein mittelständischer, familiengeführter Energiedienstleister aus Hürth.</p>
+                <p class="mt-5">Petrobul ist ein mittelständischer, familiengeführter Energiedienstleister aus
+                    Hürth.</p>
                 <v-row>
                     <v-col class="col col-12 col-md-4">
                         <img src="@/assets/img/first.svg" alt="image" class="w-100"/>
@@ -53,6 +54,8 @@
         </v-container>
 
         <slider :slider-data="sliderData"/>
+
+        <SectionSecond/>
 
     </v-col>
 </template>
