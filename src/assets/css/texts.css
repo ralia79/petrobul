@@ -1,3 +1,16 @@
 .font-bold {
     font-weight: bold;
 }
+
+.small-font {
+    font-size: 10px !important;
+}
+
+.v-btn__content {
+    font-size: 15px !important;
+    color: white !important;
+}
+
+.line-height-50 {
+    line-height: 50px;
+}

@@ -193,18 +193,14 @@ h2 {
     line-height: 32px;
 }
 
-.carousel {
-    overflow-x: hidden;
-}
-
-.inner {
-    transition: transform 0.2s;
-}
-
 .v-btn__content {
     font-size: 18px;
 }
 
 .rounded-btn {
     border-radius: 15px;
+}
+
+.rounded-text-field {
+    border-radius: 15px !important;
 }

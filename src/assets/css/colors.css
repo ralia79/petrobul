@@ -13,3 +13,11 @@
 .blue-bg {
     background-color: #0A2640;
 }
+
+.grey-text {
+    color: #C4C4C4 !important;
+}
+
+.footer-colors * {
+    color: #C4C4C4 !important;
+}
