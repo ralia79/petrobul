@@ -40,7 +40,7 @@
                                 <RouterLink to="/">Heizöl bestellen</RouterLink>
                             </v-row>
                             <v-row class="ma-0 mb-5 grey-text">
-                                <RouterLink to="/">Über uns</RouterLink>
+                                <RouterLink to="/uber-uns">Über uns</RouterLink>
                             </v-row>
                             <v-row class="ma-0 mb-5 grey-text">
                                 <RouterLink to="/">Karriere</RouterLink>
