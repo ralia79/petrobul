@@ -51,6 +51,9 @@
                 </v-row>
             </v-col>
         </v-container>
+
+        <slider :slider-data="sliderData"/>
+
     </v-col>
 </template>
 
