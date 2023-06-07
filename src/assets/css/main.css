@@ -36,17 +36,14 @@ li {
 
 p {
     font-family: "Open-Sans", serif;
-    font-size: 18px;
 }
 
 h1 {
-    font-size: 38px;
     font-weight: 500;
     font-family: 'Manrope', serif;
 }
 
 h2 {
-    font-size: 30px;
     font-weight: 400;
     font-family: 'Manrope', serif;
 }
@@ -64,6 +61,11 @@ h2 {
 .fit_image {
     width: 170px;
     height: 115px;
+}
+
+.fit_image_mobile {
+    width: 80px;
+    height: 55px;
 }
 
 .z-index-down {
@@ -170,6 +172,15 @@ h2 {
 .carousel {
     overflow-x: hidden;
 }
+
 .inner {
     transition: transform 0.2s;
+}
+
+.v-btn__content {
+    font-size: 18px;
+}
+
+.rounded-btn {
+    border-radius: 15px;
 }

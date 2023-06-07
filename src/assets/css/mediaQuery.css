@@ -4,11 +4,19 @@
     }
 
     .mobile-custom-top-padding {
-        padding-top: 120px;
+        padding-top: 110px;
     }
 
     .w-md-100 {
         width: 100%;
+    }
+
+    .w-md-75 {
+        width: 75%;
+    }
+
+    .w-md-85 {
+        width: 85%;
     }
 
     .banner-height {
@@ -17,6 +25,11 @@
 
     .album-first-image {
         height: auto !important;
+    }
+
+    .left-icon {
+        position: absolute !important;
+        left: 0;
     }
 }
 
