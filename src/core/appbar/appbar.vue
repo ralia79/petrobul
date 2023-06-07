@@ -9,10 +9,18 @@
                             <img src="@/assets/img/Logo-mobile.svg" alt="logo" class="fit_image"/>
                         </a>
                         <ul class="d-flex align-center justify-space-between col-8 mt-7">
-                            <li class="ma-0 white--text">Start</li>
-                            <li class="ma-0 white--text">Heizöl bestellen</li>
-                            <li class="ma-0 white--text">Über uns</li>
-                            <li class="ma-0 white--text">Kontakt</li>
+                            <RouterLink to="/">
+                                <li class="ma-0 white--text">Start</li>
+                            </RouterLink>
+                            <RouterLink to="/">
+                                <li class="ma-0 white--text">Heizöl bestellen</li>
+                            </RouterLink>
+                            <RouterLink to="/uber-uns">
+                                <li class="ma-0 white--text">Über uns</li>
+                            </RouterLink>
+                            <RouterLink to="/">
+                                <li class="ma-0 white--text">Kontakt</li>
+                            </RouterLink>
                         </ul>
                     </v-row>
                     <v-spacer></v-spacer>

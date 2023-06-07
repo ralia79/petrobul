@@ -2,7 +2,7 @@
     <v-app>
         <app-bar class="z-index-up"/>
         <router-view class="z-index-down"/>
-        <CustomFooter />
+        <CustomFooter class="z-index-up"/>
     </v-app>
 </template>
 <script>
