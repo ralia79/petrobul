@@ -29,3 +29,11 @@
 .red-text {
     color: #CA0000;
 }
+
+.red-bg {
+    background-color: #CA0000;
+}
+
+.dark-red-bg{
+    background-color: #A20000;
+}

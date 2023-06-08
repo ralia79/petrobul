@@ -169,6 +169,9 @@ h2 {
     border-radius: 10px;
 }
 
+.radius-15 {
+    border-radius: 15px;
+}
 
 .slider-item-height {
     height: 310px;
@@ -221,4 +224,12 @@ h2 {
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.absolute-form {
+    margin-top: -10% !important;
+}
+
+.border-grey *{
+    border-color: #C4C4C466 !important;
 }

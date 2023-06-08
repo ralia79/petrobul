@@ -35,15 +35,22 @@
         position: absolute !important;
         left: 0;
     }
+
     .VueCarousel-navigation {
         display: none !important;
     }
+
     .VueCarousel {
         width: 100% !important;
     }
+
     .footer-logo {
         width: 80px !important;
         height: 55px !important;
+    }
+
+    .w-md-15px {
+        width: 15px;
     }
 }
 
@@ -55,8 +62,7 @@
     /*.slider-item-height:hover {*/
     /*    height: 370px;*/
     /*}*/
-
     .VueCarousel-pagination {
-        display: none ;
+        display: none;
     }
 }
