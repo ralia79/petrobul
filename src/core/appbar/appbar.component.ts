@@ -12,16 +12,16 @@ export default defineComponent({
             Icon: 'mdi-menu',
             items: [
                 {
-                    title: 'Start', link: '', data: [],
+                    title: 'Start', link: '/', data: [],
                 },
                 {
                     title: 'Heizöl bestellen', link: '', data: [],
                 },
                 {
-                    title: 'Über uns', link: '', data: []
+                    title: 'Über uns', link: '/uber-uns', data: []
                 },
                 {
-                    title: 'Kontakt', link: '', data: [],
+                    title: 'Kontakt', link: '/kontakt', data: [],
                 },
                 {
                     title: 'Info', link: '', data: [

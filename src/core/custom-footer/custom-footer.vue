@@ -46,7 +46,7 @@
                                 <RouterLink to="/">Karriere</RouterLink>
                             </v-row>
                             <v-row class="ma-0 mb-5 grey-text">
-                                <RouterLink to="/">Kontakt</RouterLink>
+                                <RouterLink to="/kontakt">Kontakt</RouterLink>
                             </v-row>
                             <v-row class="ma-0 mb-5 grey-text">
                                 <RouterLink to="/">Impressum</RouterLink>

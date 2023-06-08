@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter, {RouteConfig} from 'vue-router'
 import HomeView from '@/core/home/home.vue'
 import AboutUs from '@/core/about-us/about-us.vue'
+import ContactUs from '@/core/contact-us/contact-us.vue'
 
 Vue.use(VueRouter)
 
@@ -13,6 +14,10 @@ const routes: Array<RouteConfig> = [
     {
         path: '/uber-uns',
         component: AboutUs
+    },
+    {
+        path: '/kontakt',
+        component: ContactUs
     }
 
 ]

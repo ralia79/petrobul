@@ -18,7 +18,7 @@
                             <RouterLink to="/uber-uns">
                                 <li class="ma-0 white--text">Über uns</li>
                             </RouterLink>
-                            <RouterLink to="/">
+                            <RouterLink to="/kontakt">
                                 <li class="ma-0 white--text">Kontakt</li>
                             </RouterLink>
                         </ul>
