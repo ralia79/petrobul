@@ -2,6 +2,7 @@
     <v-sheet>
         <first-section/>
         <absolute-form class="absolute-form"/>
+        <questions />
     </v-sheet>
 </template>
 
