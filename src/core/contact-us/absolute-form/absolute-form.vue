@@ -1,7 +1,7 @@
 <template>
     <v-row>
-        <v-container class="transparent">
-            <v-row class=" white radius-15 elevation-5 pa-10 pa-md-5 mb-md-15">
+        <v-container class="transparent pe-10 ps-10 pe-md-0 ps-md-0">
+            <v-row class="white radius-15 elevation-5 pa-5 mb-md-15 mt-10 mb-10">
                 <v-col class="col col-12 col-md-5 dark-red-bg radius-15 pa-5 pa-md-10">
                     <p class="white--text mt-5">SIE BRAUCHEN HILFE?</p>
                     <h1 class="white--text text-h6 text-md-h4 mt-5">
@@ -29,9 +29,9 @@
                         <v-icon large class="white--text">mdi-linkedin</v-icon>
                     </v-row>
                 </v-col>
-                <v-col class="col col-12 col-md-7 ps-md-10 pt-10 pt-md-0">
-                    <h2>Kontaktformular</h2>
-                    <h1>
+                <v-col class="col col-12 col-md-7 ps-md-10 pt-10 pt-md-5">
+                    <h2 class="text-h6 text-md-h5">Kontaktformular</h2>
+                    <h1 class="text-h5 text-md-h4">
                         Hinterlassen Sie uns eine Nachricht
                     </h1>
                     <p>
