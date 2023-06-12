@@ -53,7 +53,7 @@
             </v-col>
         </v-container>
 
-        <slider :slider-data="sliderData"/>
+        <slider />
 
         <SectionSecond/>
 

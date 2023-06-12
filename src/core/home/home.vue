@@ -3,7 +3,7 @@
         <first-section/>
         <our-service/>
         <album-section/>
-        <slider :slider-data="sliderData"/>
+        <slider />
         <chart-section />
     </v-sheet>
 </template>

@@ -39,8 +39,11 @@
 
                         </Slide>
                     </carousel>
+                </v-row>
 
 
+                <v-row align="center" justify-md="end" justify="center">
+                    <span class="powered-by-google"></span>
                 </v-row>
             </v-col>
         </v-container>
