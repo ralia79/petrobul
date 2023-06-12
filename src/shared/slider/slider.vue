@@ -7,7 +7,7 @@
                 </v-row>
                 <h2 class="white--text text-center">Schau dir unsere Google Bewertungen an</h2>
                 <v-row align="start" justify="space-between" class="mt-10 ma-0 slider-wrapper-height"
-                       v-if="sliderData">
+                       v-if="SliderData">
                     <carousel :paginationEnabled="true"
                               :navigationEnabled="true"
                               :perPageCustom="[[0 , 1],[768, 1], [1024, 3]]"
@@ -19,7 +19,7 @@
                               :paginationPadding="10"
                               :paginationSize="20"
                     >
-                        <Slide v-for="(item , kde) in sliderData" :key="kde" class="ma-0">
+                        <Slide v-for="(item , kde) in SliderData" :key="kde" class="ma-0">
                             <v-col class="">
                                 <v-row class="slider-item-height ma-0 white radius-10">
                                     <v-col class="pa-8 col col-12">
