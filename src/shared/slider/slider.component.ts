@@ -13,8 +13,6 @@ import SliderService from "@/shared/slider/slider.service";
 export default class SliderComponent extends Vue {
     @Inject('sliderService')
     private sliderService!: () => SliderService;
-    private innerStyles = {};
-    private step = '';
     private SliderData = [];
 
     async mounted() {
