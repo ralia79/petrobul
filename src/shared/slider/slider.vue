@@ -1,5 +1,5 @@
 <template>
-    <div class="w-100 blue-bg mt-15 pb-15" v-if="SliderData.length > 0">
+    <div class="w-100 blue-bg mt-15 pb-15" v-if="reviews.length > 0">
         <v-container class="pt-10 position-relative">
             <v-col class="pa-0">
                 <v-row justify="center">
@@ -19,7 +19,7 @@
                               :paginationPadding="10"
                               :paginationSize="20"
                     >
-                        <Slide v-for="(item , kde) in SliderData" :key="kde" class="ma-0">
+                        <Slide v-for="(item , kde) in reviews" :key="kde" class="ma-0">
                             <v-col class="">
                                 <v-row class="slider-item-height ma-0 white radius-10">
                                     <v-col class="pa-8 col col-12">
