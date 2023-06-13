@@ -4,21 +4,27 @@ import {Vue, Inject} from 'vue-property-decorator';
 import {Carousel, Slide} from 'vue-carousel';
 import SliderService from "@/shared/slider/slider.service";
 import {IReview, Review} from "@/shared/model/review.model";
+import StarRating from 'vue-dynamic-star-rating';
+
 @Component({
     components: {
         Carousel,
         Slide,
+        StarRating
     }
 })
 export default class SliderComponent extends Vue {
-    @Inject('sliderService') private sliderService!: () => SliderService;
+    @Inject('sliderService')
+    private sliderService!: () => SliderService;
     private reviews: IReview[] | null = null;
     private rating = 0;
     private user_ratings_total = 0;
+    private config = {};
 
     async mounted() {
         const res = await this.sliderService().getAllReviews();
         this.reviews ? res.reviews : new Review();
+
     }
 
 }

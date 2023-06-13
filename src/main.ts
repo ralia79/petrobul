@@ -7,7 +7,6 @@ import SliderService from "@/shared/slider/slider.service";
 import '@/assets/css/main.css'
 
 Vue.config.productionTip = false
-
 Vue.use(VueCookies);
 new Vue({
     router,

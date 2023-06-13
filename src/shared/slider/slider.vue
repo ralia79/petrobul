@@ -1,13 +1,23 @@
 <template>
-    <div class="w-100 blue-bg mt-15 pb-15" v-if="reviews.length > 0">
+    <div class="w-100 blue-bg mt-15 pb-15" >
         <v-container class="pt-10 position-relative">
             <v-col class="pa-0">
                 <v-row justify="center">
                     <p class="white--text">Was unsere Kunden sagen</p>
                 </v-row>
                 <h2 class="white--text text-center">Schau dir unsere Google Bewertungen an</h2>
+
+                <v-row>
+                    <v-col class="col col-12 col-md-8"></v-col>
+                    <v-col class="col col-12 col-md-4">
+                        <v-row align="center" justify="center">
+                            <p class="white--text">{{user_ratings_total}}</p>
+                            <p class="white--text">Bewertungen</p>
+                        </v-row>
+                    </v-col>
+                </v-row>
                 <v-row align="start" justify="space-between" class="mt-10 ma-0 slider-wrapper-height"
-                      >
+                       v-if="reviews">
                     <carousel :paginationEnabled="true"
                               :navigationEnabled="true"
                               :perPageCustom="[[0 , 1],[768, 1], [1024, 3]]"
