@@ -37,11 +37,6 @@ export default class ChartSectionComponent extends Vue {
 
     private chartId = 'line-chart';
     private datasetIdKey = 'label'
-    private width = 800
-    private height = 400
-    private styles = () => {
-    };
-    private plugins = () => [];
     private tabModel = null;
     private dataMode = 'data1month';
     private chartData = {
@@ -83,18 +78,5 @@ export default class ChartSectionComponent extends Vue {
 
         const res = await this.chartSectionService().getChartData(strMode);
         console.log(res)
-
-        // this.chartData = {
-        //     labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30'],
-        //     datasets: [
-        //         {
-        //             label: 'Data One',
-        //             backgroundColor: '#f87979',
-        //             data: [40, 39, 10, 40]
-        //         }
-        //     ]
-        // }
-
-
     }
 }
