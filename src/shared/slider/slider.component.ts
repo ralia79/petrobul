@@ -24,7 +24,6 @@ export default class SliderComponent extends Vue {
     async mounted() {
         const res = await this.sliderService().getAllReviews();
         this.reviews ? res.reviews : new Review();
-
     }
 
 }
