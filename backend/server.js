@@ -22,7 +22,7 @@ app.get('/api/reviews', async (req, res) => {
 app.post('/api/chartData', async (req, res) => {
     try {
         // const chartData = await chartDataService.getData(req.body);
-        res.send(req.body.data)
+        res.send(req.body)
     } catch (e) {
         res.send(e)
     }

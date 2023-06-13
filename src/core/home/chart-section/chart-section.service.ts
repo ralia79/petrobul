@@ -5,7 +5,7 @@ export default class ChartSectionService {
         const data = "testData" ;
         return new Promise<any>((resolve, reject) => {
             axios
-                .post(`/api/chartData`, data)
+                .post(`/api/chartData`, {data})
                 .then((res: { data: any; }) => {
                     resolve(res);
                 })
