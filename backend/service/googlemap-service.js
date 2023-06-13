@@ -8,13 +8,10 @@ module.exports =  {
         return axios
             .get(`https://maps.googleapis.com/maps/api/place/details/json?placeid=${placeId}&fields=user_ratings_total,rating,reviews&key=${apikey}&region=DE&language=de`)
             .then((res) => {
-                //resolve(res.data);
-                console.log(res.data);
-
-                return res.data;
+                const data = res.data ;
+                return data.result;
             })
             .catch((err) => {
-                //reject(err);
                 console.error(err);
             });
     }

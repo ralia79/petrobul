@@ -11,7 +11,6 @@ const HOST = 'localhost';
 const app = express();
 app.get('/api/reviews', async (req, res) => {
     const reviews = await googleMap.readReviews();
-
     res.send(reviews);
 });
 

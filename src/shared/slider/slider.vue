@@ -21,8 +21,7 @@
                     </v-col>
                 </v-row>
 
-                <v-row align="start" justify="space-between" class="mt-10 ma-0 slider-wrapper-height"
-                >
+                <v-row align="start" justify="space-between" class="mt-10 ma-0 slider-wrapper-height" v-if="reviews">
                     <carousel :paginationEnabled="true"
                               :navigationEnabled="true"
                               :perPageCustom="[[0 , 1],[768, 1], [1024, 3]]"
@@ -35,17 +34,19 @@
                               :paginationSize="20"
 
                     >
-                        <Slide v-for="(item , kde) in reviews" :key="kde" class="ma-0" v-if="reviews">
-                            <v-col class="">
+                        <Slide v-for="(item , kde) in reviews" :key="kde">
+                            <v-col class="change-scale-slide">
                                 <v-row class="slider-item-height ma-0 white radius-10">
-                                    <v-col class="pa-8 col col-12">
-                                        <h3 class="w-75 w-md-100">{{ item.text }}</h3>
-                                        <v-row justify="start" class="ma-0">
-                                            <star-rating :value="rating" :disabled="true"></star-rating>
+                                    <v-col class="pe-8 ps-8 pt-5 col col-12 d-flex flex-column justify-space-between">
+                                        <p class="h-50 ma-0">{{ item.text.substring(0, 180) + " ..." }}</p>
+                                        <v-row align="center" justify="start" class="ma-0">
+                                            <star-rating :value="item.rating" :disabled="true"></star-rating>
+                                            <p class="ma-0 grey-text ps-5">{{ item.rating }}</p>
                                         </v-row>
-                                        <v-row justify="start" class="ma-0 mt-8">
+                                        <v-row justify="start" align="center" class="ma-0">
                                             <v-col class="col col-3">
-                                                <img :src="item.profile_photo_url" alt="account profile image">
+                                                <img :src="item.profile_photo_url" alt="account profile image"
+                                                     class="w-50px">
                                             </v-col>
                                             <v-col class="col col-9">
                                                 <p class="mb-0 profile-title">{{ item.author_name }}</p>
@@ -55,10 +56,17 @@
                                     </v-col>
                                 </v-row>
                             </v-col>
-
                         </Slide>
                     </carousel>
                 </v-row>
+                <v-row v-if="!reviews">
+                    <v-skeleton-loader
+                            class="mx-auto mb-15"
+                            width="100%"
+                            type="image"
+                    ></v-skeleton-loader>
+                </v-row>
+
                 <v-row align="center" justify-md="end" justify="center">
                     <span class="powered-by-google"></span>
                 </v-row>
