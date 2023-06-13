@@ -19,6 +19,4 @@ export default class SliderComponent extends Vue {
         const res = await this.sliderService().getAllReviews();
         console.log(res)
     }
-
-
 }
