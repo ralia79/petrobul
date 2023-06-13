@@ -7,8 +7,24 @@
                 </v-row>
                 <v-row class="ma-16"></v-row>
 
-                <v-row class="ma-0">
-                    <img src="@/assets/img/chart.svg" alt="chart" class="w-100">
+                <v-row>
+                        <v-tabs v-model="tabModel">
+                            <v-tab class="tab col s3">1 Monat</v-tab>
+                            <v-tab class="tab col s3">3 Monate</v-tab>
+                            <v-tab class="tab col s3">1 Jahr</v-tab>
+                            <v-tab class="tab col s3">3 Jahre</v-tab>
+                        </v-tabs>
+                </v-row>
+
+                <v-row justify="center" class="mt-10 h-500 w-100">
+                    <LineChartGenerator
+                        :chart-options="chartOptions"
+                        :chart-data="chartData"
+                        :chart-id="chartId"
+                        :dataset-id-key="datasetIdKey"
+                        :data="chartData"
+                        :options="chartOptions"
+                    />
                 </v-row>
             </v-col>
         </v-container>
